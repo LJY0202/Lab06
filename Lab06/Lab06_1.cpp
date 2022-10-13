@@ -7,15 +7,15 @@ class A {
 public:
 	A() {
 		i = 5;
-		cout << i << " (초기)";
+		cout << i << " (begin) ";
 	}
 	void operator ++(int) {
 		i++;
-		cout << i << " (a++ 결과) ";
+		cout << i << " (resunt a++ ) ";
 	}
 	void operator ++() {
 		++i;
-		cout << i << " (++a 결과) ";
+		cout << i << " (result ++a) ";
 	}
 
 };
