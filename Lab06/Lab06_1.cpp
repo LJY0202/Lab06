@@ -11,7 +11,7 @@ public:
 	}
 	void operator ++(int) {
 		i++;
-		cout << i << " (resunt a++ ) ";
+		cout << i << " (result a++ ) ";
 	}
 	void operator ++() {
 		++i;
