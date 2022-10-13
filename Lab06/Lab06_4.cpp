@@ -3,7 +3,7 @@
 using namespace std;
 class Person {
 private:
-	char name[10];
+	char name[20];
 	int age;
 	char address[20];
 
@@ -50,7 +50,7 @@ public:
 
 int main() {
 
-	Student me((char*)"이정윤", 22, (char*)"대전", (char*)"201902733");
+	Student me((char*)"JungYoon Lee", 22, (char*)"Deajun", (char*)"201902733");
 	me.showStudentInfo();
 	return 0;
 }
